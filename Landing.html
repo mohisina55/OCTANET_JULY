@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library Management System</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <style>
+    .library-logo {
+      width: 80px;
+      height: 70px;
+    }
+    .navbar {
+      background-color: #007bff;
+    }
+    #navItem1, #navItem2, #navItem3, #navItem4 {
+      color: white;
+      font-family: "Roboto", sans-serif;
+    }
+    .jumbotron {
+      background-color: #FFB6C1; /* Sky Blue */
+      background-size: cover;
+      height: 100vh;
+      color: white;
+      text-align: center;
+    }
+.jumbotron-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #333; /* Black color */
+}
+    .jumbotron-caption {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+    .custom-button {
+      background-color: #28a745;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="C:\Users\mohis\Downloads\library.jpg" alt="Library Logo" class="library-logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link active" id="navItem1" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" id="navItem2" href="#aboutSection">About</a>
+          <a class="nav-item nav-link" id="navItem3" href="#servicesSection">Services</a>
+          <a class="nav-item nav-link" id="navItem4" href="#contactSection">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <section class="jumbotron d-flex align-items-center">
+    <div class="container">
+      <h1 class="jumbotron-heading">Welcome to Our Library</h1>
+      <p class="jumbotron-caption">Unlock the world of knowledge with us</p>
+      <a href="#" class="custom-button">Explore Now</a>
+    </div>
+  </section>
+
+  <section id="aboutSection" class="py-5">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
+    </div>
+  </section>
+
+  <section id="servicesSection" class="py-5 bg-light">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Book Borrowing</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
+        </div>
+        <div class="col-md-4">
+          <h3>Online Catalog</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
+        </div>
+        <div class="col-md-4">
+          <h3>Reading Spaces</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contactSection" class="py-5">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email: info@library.com</p>
+      <p>Phone: +1234567890</p>
+    </div>
+  </section>
+
+  <footer class="py-4 bg-dark text-white text-center">
+    <div class="container">
+      <p>&copy; 2024 Library Management System</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-g2mjluwk4Z3m9IiHZF0iaPoa3wHucX2C00EvoHFn6d0lqKcGxzgYB5ujp6Hv9cdd" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
